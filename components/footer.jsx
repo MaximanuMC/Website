@@ -8,11 +8,6 @@ export function Footer() {
                     &copy; MaximanuSMP. Alle Rechte vorbehalten.
                 </Link>
             </p>
-            <p className="text-sm">
-                <Link href="/impressum" className="underline transition decoration-dashed text-primary underline-offset-8 hover:opacity-80">
-                    Impressum
-                </Link>
-            </p>
         </footer>
     );
 };
