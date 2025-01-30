@@ -12,12 +12,14 @@ const maxExtractLength = 200;
 const revalidateTTL = 60;
 
 const explainer = `
-Hallo! Icv bin Maxi und hier ein paar Informationen über mich:
+Hallo! Ich bin Maxi und hier ein paar Informationen über mich:
 
 ~~~jsx
 Name: Maxi
 Land: Deutschland
 ~~~
+
+
 
 Ich benutze oft Wikipedia und finde es gut, dass allen Leuten so viel gratis Wissen bereitgestellt wird.
 Hier ist ein zufälliger Wikipedia Artikel:
