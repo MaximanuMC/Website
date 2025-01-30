@@ -3,7 +3,7 @@ import { SubmitButton } from '../../components/submit-button';
 import { Markdown } from '../../components/markdown';
 
 export const metadata = {
-    title: 'Über mich | xXMaximanuXx'
+    title: 'Über uns | Maximanu SMP'
 };
 
 const tagName = 'randomWiki';
@@ -12,16 +12,16 @@ const maxExtractLength = 200;
 const revalidateTTL = 60;
 
 const explainer = `
-Hallo! Ich bin Maxi und hier ein paar Informationen über mich:
+Hallo! Wir sind ein cooles Minecraft Server Netzwerk und hier sind ein paar Informationen über uns:
 
 ~~~jsx
-Name: Maxi
+Name: Maximanu SMP Network
 Land: Deutschland
+Besitzer: Maxi
+Co-Besitzer: Timmy
 ~~~
 
-
-
-Ich benutze oft Wikipedia und finde es gut, dass allen Leuten so viel gratis Wissen bereitgestellt wird.
+Wir benutze oft Wikipedia und finden es gut, dass allen Leuten so viel gratis Wissen bereitgestellt wird.
 Hier ist ein zufälliger Wikipedia Artikel:
 `;
 
@@ -34,7 +34,7 @@ export default async function Page() {
 
     return (
         <>
-            <h1>Über mich</h1>
+            <h1>Über uns</h1>
             <Markdown content={explainer} />
             <form className="mt-4" action={revalidateWiki}>
                 <SubmitButton text="zufälliger Artikel" />
