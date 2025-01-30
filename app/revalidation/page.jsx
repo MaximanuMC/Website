@@ -34,10 +34,10 @@ export default async function Page() {
 
     return (
         <>
-            <h1>Revalidation Basics</h1>
+            <h1>Über mich</h1>
             <Markdown content={explainer} />
             <form className="mt-4" action={revalidateWiki}>
-                <SubmitButton text="Click to Revalidate" />
+                <SubmitButton text="zufälliger Artikel" />
             </form>
             <RandomWikiArticle />
         </>
