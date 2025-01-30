@@ -27,3 +27,6 @@ export default function Page() {
                     Jetzt spielen!
                 </Link>
             </section>
+        </main>
+    );
+}
