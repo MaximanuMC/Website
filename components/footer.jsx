@@ -4,12 +4,12 @@ export function Footer() {
     return (
         <footer className="pt-16 pb-12 sm:pt-24 sm:pb-16">
             <p className="text-sm">
-                <Link href="https://docs.netlify.com/frameworks/next-js/overview/" className="underline transition decoration-dashed text-primary underline-offset-8 hover:opacity-80">
+                <Link href="/" className="underline transition decoration-dashed text-primary underline-offset-8 hover:opacity-80">
                     &copy; MaximanuSMP. Alle Rechte vorbehalten.
                 </Link>
             </p>
             <p className="text-sm">
-                <Link href="https://docs.netlify.com/frameworks/next-js/overview/" className="underline transition decoration-dashed text-primary underline-offset-8 hover:opacity-80">
+                <Link href="/impressum" className="underline transition decoration-dashed text-primary underline-offset-8 hover:opacity-80">
                     Impressum
                 </Link>
             </p>
