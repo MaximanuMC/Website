@@ -12,7 +12,7 @@ const maxExtractLength = 200;
 const revalidateTTL = 60;
 
 const explainer = `
-Hallo! Wir sind ein cooles Minecraft Server Netzwerk und hier sind ein paar Informationen über uns:
+Hallo! Wir sind ein deutsches Minecraft-Server Netzwerk und hier sind ein paar Informationen über uns:
 
 ~~~jsx
 Name: Maximanu SMP Network
