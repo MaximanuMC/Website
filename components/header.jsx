@@ -8,7 +8,6 @@ const navItems = [
     { linkText: 'Über uns', href: '/about' },
     { linkText: 'Kontakt', href: '/contact' },
     { linkText: 'Wiki', href: '/wiki' },
-    { linkText: 'Panel', href: 'https://panel.maximanu.de' },
 ];
 
 export function Header() {
@@ -33,7 +32,7 @@ export function Header() {
             )}
             <div className="flex-grow justify-end hidden lg:flex lg:mr-1">
                 <Link
-                    href="https://github.com/netlify-templates/next-platform-starter"
+                    href="https://github.com/MaximanuMC"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
