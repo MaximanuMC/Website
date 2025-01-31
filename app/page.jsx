@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { Markdown } from 'components/markdown';
 
 export const metadata = {
     title: 'Maximanu SMP'
@@ -25,6 +26,7 @@ export default function Page() {
                 >
                     Jetzt spielen!
                 </Link>
+                <Markdown content={explainer} />
             </section>
         </main>
     );
