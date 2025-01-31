@@ -11,7 +11,7 @@ Es gibt drei verschiedene Spielmodi:
 • Skyblock
 • Factions
 
-Viel Spaß auf Maximanu SMP
+Viel Spaß auf Maximanu SMP!
 `;
 
 export default function Page() {
