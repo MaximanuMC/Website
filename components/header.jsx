@@ -7,7 +7,7 @@ const navItems = [
     { linkText: 'Home', href: '/' },
     { linkText: 'Über uns', href: '/about' },
     { linkText: 'Kontakt', href: '/contact' },
-    { linkText: 'Forum', href: 'https://forum.maximanu.de' },
+    { linkText: 'Wiki', href: '/wiki' },
     { linkText: 'Panel', href: 'https://panel.maximanu.de' },
 ];
 
